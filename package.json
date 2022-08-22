@@ -1,0 +1,23 @@
+{
+  "name": "ronimation",
+  "version": "1.0.0",
+  "description": "Simple package to stylize your gradient button with some rotation animation.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damenjoSitepu/ronimation.git"
+  },
+  "keywords": [],
+  "author": "Damenjo Sitepu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damenjoSitepu/ronimation/issues"
+  },
+  "homepage": "https://github.com/damenjoSitepu/ronimation#readme"
+}
