@@ -1,7 +1,6 @@
 # RONIMATION DOCUMENTATION
 
-## RONIMATION CLASS
-## ———————————————————————————
+### RONIMATION CLASS
 
 #### Ronimation.run()
 - Menjalankan seluruh *package* yang terkandung di dalamnya.
@@ -22,7 +21,7 @@ Ronimation.run();
 Ronimation.watchOutside({ size: "1px", color: "blue", style: "solid" }, true).run();
 ```
 
-## MAIN CLASS
+### MAIN CLASS
 
 #### Main.startPackage()
 - Menjalankan seluruh *package* yang terkandung di dalamnya (*Mirip seperti Run()*).
@@ -34,7 +33,7 @@ Ronimation.watchOutside({ size: "1px", color: "blue", style: "solid" }, true).ru
 Main.startPackage();
 ```
 
-## MAGIC CLASS
+### MAGIC CLASS
 
 #### Magic.changeEverything()
 - Bersiap melakukan perubahan styling berdasarkan setiap kustom `data-attribute` yang dimasukkan user ke dalam button.
@@ -50,7 +49,7 @@ Array.from(this.RonimationElement()).forEach((Ronimation) => {
 });
 ```
 
-## CONFIGURE CLASS
+### CONFIGURE CLASS
 
 #### Configure.configure()
 - Memisahkan setiap fungsionalitas *style property* yang ada berdasarkan kelompoknya ( partial )
@@ -64,7 +63,7 @@ Array.from(this.RonimationElement()).forEach((Ronimation) => {
 Configure.configure(ronimationEL, buttonValue);
 ```
 
-## MESSAGE CLASS
+### MESSAGE CLASS
 
 #### Message.displayPackageMessageIsSuccesfullyRun()
 - Pesan di konsol setelah *package* berhasil dijalankan
@@ -76,7 +75,7 @@ Configure.configure(ronimationEL, buttonValue);
 Message.displayPackageMessageIsSuccesfullyRun(true); // parameter tidak wajib diisi
 ```
 
-## DEFAULT STYLE CLASS
+### DEFAULT STYLE CLASS
 
 #### DefaultStyle.changeStyle()
 - Menambahkan default style khas bawaan *Ronimation Package* 
