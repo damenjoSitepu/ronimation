@@ -1,5 +1,10 @@
 # RONIMATION DOCUMENTATION
 
+### Install via `NPM`
+```html
+npm i ronimation
+```
+
 ### Menjalankan *Package*
 ```js
 import Ronimation from 'ronimation';
