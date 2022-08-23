@@ -1,12 +1,26 @@
 # RONIMATION DOCUMENTATION
 
+### Pengenalan Awal
+- Menerapkan *class* bernama `Ronimation` akan membuat  button anda mengikuti *default style* yang telah kami tanamkan di dalamnya. 
+
+#### Contoh Penerapan
+```html
+<button class="Ronimation">Hello, Damenjo</button>
+```
+
 ### Padding Property
 
 #### Catatan:
-- Jika anda memiliki *style property* `Padding` yang ditanamkan ke dalam button yang telah ditambahkan kelas `Aurora`, selama anda tidak memiliki `data-attribute` yang ditambahkan ke dalamnya, maka *style property* `Padding` itulah yang akan digunakan. 
+- Jika anda memiliki *style property* `Padding` yang ditanamkan ke dalam button yang telah ditambahkan kelas `Aurora`, selama anda tidak memiliki `data-attribute` berjenis `Padding` yang ditambahkan ke dalamnya, maka *style property* `Padding` itulah yang akan digunakan. 
 
 - Semua jenis properti yang berhubungan langsung dengan size memiliki mekanisme yang sama dengan `Padding Property` ini.
 
+- Anda dapat mengukuran satuan `Unit` seperti `Css Unit` pada umumnya seperti: *cm mm in px pt pc em ex ch rem vw vh vmin vmax %*.
+
+#### Contoh Penerapan
+```html
+<button class="Ronimation">Hello, Damenjo</button>
+```
 
 <!-- ### RONIMATION CLASS
 
