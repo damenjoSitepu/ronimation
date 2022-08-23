@@ -1,6 +1,14 @@
 # RONIMATION DOCUMENTATION
 
-### RONIMATION CLASS
+### Padding Property
+
+#### Catatan:
+- Jika anda memiliki *style property* `Padding` yang ditanamkan ke dalam button yang telah ditambahkan kelas `Aurora`, selama anda tidak memiliki `data-attribute` yang ditambahkan ke dalamnya, maka *style property* `Padding` itulah yang akan digunakan. 
+
+- Semua jenis properti yang berhubungan langsung dengan size memiliki mekanisme yang sama dengan `Padding Property` ini.
+
+
+<!-- ### RONIMATION CLASS
 
 #### Ronimation.run()
 - Menjalankan seluruh *package* yang terkandung di dalamnya.
@@ -82,7 +90,7 @@ Message.displayPackageMessageIsSuccesfullyRun(true); // parameter tidak wajib di
 
 ```js
 DefaultStyle.changeStyle();
-```
+``` -->
 
 
 
