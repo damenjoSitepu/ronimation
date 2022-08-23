@@ -24,7 +24,7 @@ Ronimation.watchOutside({ size: "1px", color: "blue", style: "solid" }, false).r
 ### Padding Property
 
 #### Catatan:
-- Jika anda memiliki *style property* `Padding` yang ditanamkan ke dalam button yang telah ditambahkan kelas `Aurora`, selama anda tidak memiliki `data-attribute` berjenis `Padding` yang ditambahkan ke dalamnya, maka *style property* `Padding` itulah yang akan digunakan. 
+- Jika anda memiliki *style property* `Padding` yang ditanamkan ke dalam button yang telah ditambahkan kelas `Ronimation`, selama anda tidak memiliki `data-attribute` berjenis `Padding` yang ditambahkan ke dalamnya, maka *style property* `Padding` itulah yang akan digunakan. 
 
 - Semua jenis properti yang berhubungan langsung dengan size memiliki mekanisme yang sama dengan `Padding Property` ini.
 
