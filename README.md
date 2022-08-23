@@ -1,5 +1,16 @@
 # RONIMATION DOCUMENTATION
 
+### Menjalankan *Package*
+```js
+import Ronimation from 'ronimation';
+
+Ronimation.watchOutside({ size: "1px", color: "blue", style: "solid" }, false).run();
+```
+
+#### Catatan:
+
+- *Method* `watchOutside()` adalah opsional. Jika anda mengatur parameter kedua-nya menjadi `True`, maka anda dapat melihat sesuatu yang menarik di belakang layar.
+
 ### Pengenalan Awal
 - Menerapkan *class* bernama `Ronimation` akan membuat  button anda mengikuti *default style* yang telah kami tanamkan di dalamnya. 
 
@@ -15,11 +26,18 @@
 
 - Semua jenis properti yang berhubungan langsung dengan size memiliki mekanisme yang sama dengan `Padding Property` ini.
 
-- Anda dapat mengukuran satuan `Unit` seperti `Css Unit` pada umumnya seperti: *cm mm in px pt pc em ex ch rem vw vh vmin vmax %*.
+- Anda dapat mengukuran satuan `Unit` seperti `Css Unit` pada umumnya seperti: *cm, mm, in, px, pt, pc, em, ex, ch, rem, vw, vh, vmin, vmax, %*.
 
-#### Contoh Penerapan
+- Default properti `Padding` adalah semua sisi bernilai `10` dengan satuan *unit* `px`. Anda bebas melakukan kustomisasi dengan semua `data-attribute` yang akan kami jabarkan di bawah ini. 
+
+#### Contoh Penerapan 1 
 ```html
-<button class="Ronimation">Hello, Damenjo</button>
+<!-- Semua sisi padding bernilai 25px -->
+<button class="Ronimation" data-p="25">Hello, Damenjo</button>
+
+<button class="Ronimation" data-p="25px">Hello, Damenjo</button>
+
+<button class="Ronimation" data-p="25em">Hello, Damenjo</button>
 ```
 
 <!-- ### RONIMATION CLASS
